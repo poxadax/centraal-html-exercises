@@ -8,3 +8,19 @@ body {
     font-weight: bold;
     text-transform: uppercase; /* yrdytugiui */
 }
+aside {
+    background-color: #4A5C71;
+    color: #F6F6F6;
+}
+.mainTitles {
+    background-color: #7791A4;
+}
+.mainTitles h1 {
+    color: #000000;
+}
+.mainTitles h2 {
+    color: #212121;
+}
+.remark {
+    background-color: #B1B1B1;
+}
