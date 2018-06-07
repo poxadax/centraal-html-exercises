@@ -1,0 +1,10 @@
+body {
+    font-size: 20px;
+    color: #343434;
+    font-family: Helvetica, Arial, "Times New Roman";
+}
+.degree {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase; /* yrdytugiui */
+}
