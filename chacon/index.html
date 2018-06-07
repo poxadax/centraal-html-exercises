@@ -3,23 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Cristian Chacon | Resume</title>
-    <style>
-      body{
-        font-size: 20px; /* todo lo de body tendra este tamaño */
-        color: #343434; /* todo lo de body tendra este color */
-        font-family: Helvetica, Arial, "Times New Roman"; /*todo lo de body tendra este tipo de letra */
-      }
-      /* Degree es una nueva clase, empieza con . lo demás son las reglas que sigue la clase*/
-      .degree{
-        display: block; /* abarca toda la pantalla */
-        font-weight: bold; /* hace que las letras sean negritas */
-        text-transform: uppercase; /* hace que todo este en mayúsculas */
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <aside class="">
-      <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-1/p240x240/15822843_1217427218347142_1329971980138725849_n.jpg?_nc_cat=0&oh=bf2e17bb1231eb1d2d45ed7c98585a2c&oe=5B7CC6C8" alt="Cristian Chacon picture">
+      <img src="img/bieber.jpeg" alt="Cristian Chacon picture">
 
       <!--This is the expertise block-->
       <h3>Expertise</h3>
@@ -39,20 +28,33 @@
           <span>Current</span>
         </li>
         <li>
-          <span class="degree">Finance</span>
-          <span>Tecnológico de Monterrey</span>
+          <span class="degree">Frontend</span>
+          <span>Centraal Academy</span>
           <span>Current</span>
         </li>
+      </ul>
+
+      <!--contact-->
+      <h3>Contact</h3>
+      <ul>
+        <li><i class="fab fa-facebook"></i> Facebook</li>
+        <li><i class="fab fa-twitter-square"></i> Twitter</li>
+        <li><i class="fab fa-500px"></i> 500px</li>
+        <li><i class="fab fa-github-square"></i> Github</li>
+        <li><i class="fab fa-linkedin"></i> Linkedin</li>
+        <li><i class="far fa-envelope"></i> Mail</li>
       </ul>
     </aside>
 
     <main>
-      <h1>Cristian Chacon</h1>
-      <h2>Frontend developer</h2>
+      <div class="main-titles">
+        <h1>Cristian Chacon</h1>
+        <h2>Frontend developer</h2>
+      </div>
 
       <!--about me block-->
       <h3>About me</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       <!--Experience-->
       <h3>Experience</h3>
@@ -93,6 +95,49 @@
         </ul>
       </article>
 
+      <!--reference list-->
+      <h3>Reference list</h3>
+      <section class="about-me">
+        <figure>
+          <img src="" alt="">
+          <figcaption>
+            <span>Nombre</span>
+            <span>Position</span>
+            <span>Phone</span>
+            <span>Email</span>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img src="" alt="">
+          <figcaption>
+            <span>Nombre</span>
+            <span>Position</span>
+            <span>Phone</span>
+            <span>Email</span>
+          </figcaption>
+        </figure>
+
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <span>Nombre</span>
+            <span>Position</span>
+            <span>Phone</span>
+            <span>Email</span>
+          </div>
+        </div>
+
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <span>Nombre</span>
+            <span>Position</span>
+            <span>Phone</span>
+            <span>Email</span>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
