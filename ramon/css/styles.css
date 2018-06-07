@@ -8,3 +8,27 @@ body {
     font-weight: bold;
     text-transform: uppercase; /* Random comment */
 }
+aside {
+    background-color: #26547c;
+    color: #FFF;
+}
+.mainTitles {
+    background-color: #7da1c4;
+}
+
+.mainTitles h1 {
+    color: #FFF;
+}
+
+.mainTitles h2 {
+    color: #e6f5f7;
+}
+
+.aboutMe {
+    background-color: #efb22d;
+}
+
+.aboutMe h3,
+.aboutMe p {
+    color: #FFF;
+}
