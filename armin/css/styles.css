@@ -1,0 +1,27 @@
+body {
+    font-size: 20px;
+    color: #343434;
+    font-family: Hervetica, Arial, "Times New Roman";
+
+}
+.degree {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+aside {
+	background-color: #91AA9D
+}
+.mainTitles {
+	background-color: #193441
+}
+.mainTitles h1 {
+	color: #FFFFFF;
+}
+.mainTitles h2 {
+	color: #E2E1E1;
+}
+.remark {
+	background-color: #D1DBBD
+}
