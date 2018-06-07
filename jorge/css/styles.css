@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto Slab", serif, Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  color: #34343;
+}
+.fontColor{
+  color:#fff
+}
+.degree{
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase
+}
+aside{
+  background-color: #313335;
+}
+.aboutMe{
+  background-color: #B2BBC1;
+}
+.mainTitles{
+  background-color: #54585B;
+}
+.mainTitles h1, h2{
+  color:#fff;
+}
