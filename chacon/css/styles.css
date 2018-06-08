@@ -35,3 +35,10 @@ aside {
   font-size: 15px;
   color: #404040;
 }
+.social a {
+  text-decoration: none;
+}
+.social i {
+  color: #343434;
+  size: 1.15em;
+}
