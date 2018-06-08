@@ -15,9 +15,25 @@ aside {
   font-size: "Times New Roman", Helvetica, Arial;
   font-size: 17px;
   color: #404040;
+  width: 30%;
+}
+aside img {
+  width: 80%;
+}
+.social a {
+  color: #343434;
+  text-decoration: none;
+}
+.social i {
+  size: 1.15em;
 }
 .main-titles{
-  background-color: #0E1939
+  background-color: #0E1939;
+  /*padding: 20px 0 20px 0;*/
+  /*padding: 20px 0 20px*/
+  padding: 50px 0;
+  /*padding: 20px*/
+  text-align: center;
 }
 .main-titles h1 {
   color: #FFF;
