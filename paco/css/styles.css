@@ -19,3 +19,17 @@ aside{
 .mainTitles h1{
     color: #9FE3DD;
 }
+
+.mainTitles h2 {
+    color: #212121;
+}
+.remark {
+    background-color: #B1B1B1;
+}
+.social a {
+    text-decoration: none;
+}
+.social i {
+    color: blue;
+    font-size: 1.15em;
+}
