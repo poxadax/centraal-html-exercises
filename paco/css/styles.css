@@ -10,10 +10,19 @@ body {
     }
 aside{
     background-color: #F1DE98;
-    
+    color: #F6F6F6;
+    width: 50%;
+}
+aside img {
+    width: 80%;
 }
 .mainTitles {
-    background-color: #000000;
+    background-color: #7791A4;
+    /*padding: 20px 0 20 px 0;*/
+    /*padding: 20px 0 20px;*/
+    padding: 50px 0;
+    /*padding: 20px;*/
+    text-align: center;
 }
 
 .mainTitles h1{
