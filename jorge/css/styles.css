@@ -24,3 +24,11 @@ aside{
 .mainTitles h1, h2{
   color:#fff;
 }
+.sinRayita a{
+  text-decoration: none;
+  color: #fff;
+}
+.sinRayita i{
+  color: #fff;
+  font-size: 1.15rem;
+}
