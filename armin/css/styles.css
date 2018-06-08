@@ -11,10 +11,19 @@ body {
 }
 
 aside {
-	background-color: #91AA9D
+	background-color: #91AA9D;
+    color: #FFFFFF;
+    width: 50%;
+}
+aside img{
+    width: 50%;
+   
 }
 .mainTitles {
-	background-color: #193441
+	background-color: #193441;
+    /*padding: 30px 0 20px 0;*/
+    padding: 50px 0;
+    text-align: center;
 }
 .mainTitles h1 {
 	color: #FFFFFF;
@@ -23,5 +32,12 @@ aside {
 	color: #E2E1E1;
 }
 .remark {
-	background-color: #D1DBBD
+	background-color: #D1DBBD;
+}
+.social a {
+    text-decoration: none;
+}
+.social i {
+    color: #581313;
+    font-size: 1.15em;
 }
