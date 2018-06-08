@@ -14,21 +14,33 @@ body {
 }
 aside{
   background-color: #313335;
+  width: 30%;
 }
 .aboutMe{
   background-color: #B2BBC1;
 }
 .mainTitles{
   background-color: #54585B;
+  padding: 50px 100px;
+  text-align: center;
 }
 .mainTitles h1, h2{
   color:#fff;
 }
+.sinRayita{
+  list-style-type: none;
+  display: flex;
+}
 .sinRayita a{
   text-decoration: none;
   color: #fff;
+  list-style: none;
+  margin: 0 0 0 10px;
 }
 .sinRayita i{
   color: #fff;
   font-size: 1.15rem;
+}
+aside img{
+  width: 80%;
 }
