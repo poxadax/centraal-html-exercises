@@ -1,0 +1,53 @@
+body{
+  font-size: 20px; /* todo lo de body tendra este tamaño */
+  color: #343434; /* todo lo de body tendra este color */
+  font-family: Helvetica, Arial, "Times New Roman"; /*todo lo de body tendra este tipo de letra */
+}
+/* Degree es una nueva clase, empieza con . lo demás son las reglas que sigue la clase*/
+.degree{
+  display: block; /* abarca toda la pantalla */
+  font-weight: bold; /* hace que las letras sean negritas */
+  text-transform: uppercase; /* hace que todo este en mayúsculas */
+  font-size: 15px;
+}
+aside {
+  background-color: #D9D9D9;
+  font-size: "Times New Roman", Helvetica, Arial;
+  font-size: 17px;
+  color: #404040;
+  width: 30%;
+}
+aside img {
+  width: 80%;
+}
+.social a {
+  color: #343434;
+  text-decoration: none;
+}
+.social i {
+  size: 1.15em;
+}
+.main-titles{
+  background-color: #0E1939;
+  /*padding: 20px 0 20px 0;*/
+  /*padding: 20px 0 20px*/
+  padding: 50px 0;
+  /*padding: 20px*/
+  text-align: center;
+}
+.main-titles h1 {
+  color: #FFF;
+  font-family: "Times New Roman";
+  font-size: 35px;
+}
+.main-titles h2 {
+  color: #F7F7F7;
+  font-family: "Times New Roman";
+  font-size: 27px;
+}
+.about-me {
+  background-color: #F7F7F7;
+  font-size: "Times New Roman", Helvetica, Arial;
+  font-size: 15px;
+  color: #404040;
+}
