@@ -29,3 +29,11 @@ aside {
     color: #FFF;
 }
 
+.social a {
+    text-decoration: none;
+}
+
+.social i {
+    color: #FFF;
+    font-size: 1.15em;
+}
