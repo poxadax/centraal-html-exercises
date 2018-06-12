@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navtop {
   position:
 }
@@ -10,4 +15,17 @@
 }
 .navbottom {
   border: 1px solid grey;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+.nav_class1 {
+
+}
+.nav_class2 {
+  
 }
