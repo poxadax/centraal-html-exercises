@@ -11,9 +11,25 @@ body {
 aside {
     background-color: #4A5C71;
     color: #F6F6F6;
+    width: 50%;
+}
+aside img {
+    width: 80%;
+}
+.social a {
+    text-decoration: none;
+}
+.social i {
+    color: #B1B1B1;
+    font-size: 1.15em;
 }
 .mainTitles {
     background-color: #7791A4;
+    /*padding: 20px 0 20px 0;*/
+    /*padding: 20px 0 20px;*/
+    padding: 50px 0;
+    /*padding: 20px;*/
+    text-align: center;
 }
 .mainTitles h1 {
     color: #000000;
