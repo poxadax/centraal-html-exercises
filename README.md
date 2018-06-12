@@ -7,5 +7,7 @@ repo.
 
 This collection is for evaluation purposes to make easier the review of each of the students advances.  
 
+### Resumes
+The students created their Resume
 
-
+### Search Page
