@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Michelle Torres | Resume</title>
-        <style>
-            body {
-                font-size: 20px;
-                color: #343434;
-                font-family: Helvetica, Arial, "Times New Roman";
-            }
-            .degree {
-                display: block;
-                font-weight: bold;
-                text-transform: uppercase; /* yrdytugiui */
-            }
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+        <style media="screen">
+
         </style>
     </head>
     <body>
         <aside>
-            <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-1/p160x160/31946944_10216619652503988_6774437356041666560_n.jpg?_nc_cat=0&oh=27652922f27b6d4d21ce5d9c8bdcad60&oe=5B831B41" alt="Michelle Torres picture">
+            <img src="img/michelle.jpg" alt="Michelle Torres picture">
 
             <!-- Expertise block -->
-            <h3>Expertise</h3>
-            <ul>
+            <h3 style="color: red">Expertise</h3>
+            <ul class="bonito">
                 <li>Management</li>
                 <li>Leadership</li>
                 <li>Development</li>
@@ -31,7 +24,7 @@
 
             <!-- Education block -->
             <h3>Education</h3>
-            <ul>
+            <ul class="bonito">
                 <li>
                     <span class="degree">MD Information Technology</span>
                     <span>Universidad de Guadalajara</span>
@@ -43,15 +36,40 @@
                     <span>2002 - 2007</span>
                 </li>
             </ul>
+
+            <!-- Contact -->
+            <h3 class="bonito">Contact</h3>
+            <ul class="social">
+                <li>
+                    <a href="https://github.com/nmicht" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                        Github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nmicht/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:hola@michelletorres.mx">
+                        <i class="fas fa-envelope-square"></i>
+                        Correo
+                    </a>
+                </li>
+            </ul>
         </aside>
 
         <main>
-            <h1>Michelle Torres</h1>
-            <h2>Lead Software Engineer</h2>
+            <div class="mainTitles">
+                <h1>Michelle Torres</h1>
+                <h2>Lead Software Engineer</h2>
+            </div>
 
             <!-- About me block -->
             <h3>About me</h3>
-            <p>Passionate IT professional, a born leader, with experience in all software development lifecycle performing roles as project manager, analyst, technical leader and programmer using agile and waterfall methodologies.</p>
+            <p class="remark">Passionate IT professional, a born leader, with experience in all software development lifecycle performing roles as project manager, analyst, technical leader and programmer using agile and waterfall methodologies.</p>
 
             <!-- Experience block -->
             <h3>Experience</h3>
@@ -91,6 +109,30 @@
                     <li>Management of training and consulting services offering customers tangible and valuable results at the end of their training or consulting.</li>
                 </ul>
             </article>
+
+            <!-- References section -->
+            <h3>References</h3>
+            <section class="remark">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <span>Nombre</span>
+                        <span>Position</span>
+                        <span>Phone</span>
+                        <span>Email</span>
+                    </figcaption>
+                </figure>
+
+                <div class="">
+                    <img src="" alt="">
+                    <div class="">
+                        <span>Nombre</span>
+                        <span>Position</span>
+                        <span>Phone</span>
+                        <span>Email</span>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>

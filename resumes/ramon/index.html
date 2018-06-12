@@ -1,27 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ramón Posadas Martínez | Resume</title>
-    <style>
-        body {
-            font-size: 20px;
-            color: #343434;
-            font-family: Helvetica, Arial, "Times New Roman";
-        }
-        .degree {
-            display: block;
-            font-weight: bold;
-            text-transform: uppercase; /* Random comment */
-        }
-       
-    </style>
+    <link rel="stylesheet" href="css/styles.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
     <aside>
         
-        <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/29540970_10159984968850447_5087888477400969583_n.jpg?_nc_cat=0&_nc_eui2=AeFyced82cfkaVmysx_-xmt2CbbTi7kSoh0NAtgc-oix_TFVshIfQgIa6Qzw6nAjsZHnthoHMU0PgUxxcc5MHULxyiigdKbpuh4q0DhYm4mC6Q&oh=633d977a54aa356246a55d36499de3c3&oe=5B791C18" alt="Ramon Posadas Martinez Picture">
+        <img src="img/ramon.jpg" alt="Ramon Posadas Martinez Picture—">
         
         <!-- Expertise blog-->
         <h3>Expertise</h3>
@@ -46,16 +35,43 @@
                 <span>2018</span>
             </li>
             
-        </ul> 
+        </ul>
+        <!--Contact-->
+        <h3>Contact</h3>
+        <ul class="social">
+            <li>
+                <a href="mailto:posadaz@gmail.com">
+                <i class="fas fa-envelope-square"></i>
+                Mail
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/ramón-posadas-30233554/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+                </a> 
+            </li>
+            <li>
+                <a href="https://github.com/poxadax" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                    Github
+                </a>
+            </li>
+        </ul>
     </aside>    
     <main>
-        <h1>Ramón Posadas Martínez</h1>
-        <h2>Technical Support Specialist</h2> 
+        <div class="mainTitles">
+            <h1>Ramón Posadas Martínez</h1>
+            <h2>Technical Support Specialist</h2> 
+        </div>
+        
 
         <!-- About me block -->
-        <h3>About me</h3>
-        <p>Excellent analysis and decision making, high tolerance working under pressure and accepting other ideas, leadership, ability to follow instructions and proposing creative solutions, confident while speaking in public, adaptable and quick learner.</p>
-
+        
+            <h3>About me</h3>
+            <p class="remark">Excellent analysis and decision making, high tolerance working under pressure and accepting other ideas, leadership, ability to follow instructions and proposing creative solutions, confident while speaking in public, adaptable and quick learner.</p>   
+        
+        
         <!-- Experience block -->        
         <h3>Experience</h3>
         <article>
@@ -97,6 +113,29 @@
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat itaque amet ipsam accusantium, possimus dignissimos cupiditate laudantium eum. Repudiandae, similique! Possimus doloremque tempora pariatur labore voluptas similique debitis eum placeat?</li>
             </ul>
         </article>
+        <!--Reference section-->
+        <h3>References</h3>
+        <section class="remark">
+            <figure>
+                <img src="" alt="">
+                <figcaption>
+                    <span>Name</span>
+                    <span>Position</span>
+                    <span>Phone</span>
+                    <span>Email</span>
+                </figcaption>
+            </figure>
+
+            <div class="">
+                <img src="" alt="">
+                <div class="">
+                    <span>Name</span>
+                    <span>Position</span>
+                    <span>Phone</span>
+                    <span>Email</span>    
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>
