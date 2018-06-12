@@ -1,0 +1,13 @@
+.navtop {
+  position:
+}
+.footerclass {
+  position: fixed;
+  bottom: 0px;
+  background-color: lightgrey;
+  left: 0;
+  right: 0;
+}
+.navbottom {
+  border: 1px solid grey;
+}
