@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto Slab", serif, Helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  color: #34343;
+}
+.fontColor{
+  color:#fff
+}
+.degree{
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+aside{
+  background-color: #313335;
+  width: 30%;
+}
+.aboutMe{
+  background-color: #B2BBC1;
+}
+.mainTitles{
+  background-color: #54585B;
+  padding: 50px 100px;
+  text-align: center;
+}
+.mainTitles h1, h2{
+  color:#fff;
+
+}
+.sinRayita{
+  list-style-type: none;
+  display: flex;
+}
+.sinRayita a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: auto;
+}
+.sinRayita i{
+  color: #fff;
+  font-size: 1.15rem;
+}
+aside img{
+  width: 80%;
+}
