@@ -8,7 +8,7 @@ footer {
   bottom: 0;
   color: #666;
   position: fixed;
-  width: 100%
+  width: 100%;
 }
 footer nav,
 footer div {
@@ -55,6 +55,7 @@ footer ul:last-of-type{
   color: white;
   padding: 7px 15px;
   border: none;
+  border-radius: 5px 14px;
 }
 .nav_top {
   text-align: right;
@@ -62,7 +63,7 @@ footer ul:last-of-type{
 }
 .main_content {
   width: 600px;
-  margin: 120px auto 0;
+  margin: auto;
   text-align: center;
   position: relative;
 }
@@ -80,4 +81,7 @@ footer ul:last-of-type{
 .main_content input {
   width: 100%;
   padding: 5px;
+}
+footer nav {
+  overflow: auto;
 }
