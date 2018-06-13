@@ -18,7 +18,24 @@ footer div {
 
 footer li {
     display: inline-block;
+    margin: 0 10px;
 }
+
+footer a,
+footer a:link,
+footer a:visited {
+    color: #666;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+footer: a:active {
+    color: red;
+}
+
 
 
 
