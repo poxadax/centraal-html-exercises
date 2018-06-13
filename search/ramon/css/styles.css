@@ -88,6 +88,7 @@ footer ul:last-of-type {
 .mainContent input {
     width: 100%;
     padding: 5px;
+    box-shadow: 1px 1px 5px 5px grey;
 }
 .buttons button{
     padding: 7px 15px;
