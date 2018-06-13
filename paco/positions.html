@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content= "ie=edge">
+        <title>Positions></title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            .container {
+                background: lightsalmon;
+                height: 50%;
+                margin-top: 20px;
+            }
+            .div1 {
+                position: relative;
+                background: aqua;
+                top: 0;
+            }
+            .div2 {
+                position: relative;
+                background: yellow;
+                left: 100px;
+                right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="div1">Hola soy un div 1</div>
+            <div class="div2">Hola soy un div 2</div>
+        </div>
+    </body>
+</html>
