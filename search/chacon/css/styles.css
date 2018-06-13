@@ -54,8 +54,30 @@ footer ul:last-of-type{
   background-color: #4385f9;
   color: white;
   padding: 7px 15px;
+  border: none;
 }
 .nav_top {
   text-align: right;
   padding: 10px 20px 0 0;
+}
+.main_content {
+  width: 600px;
+  margin: 120px auto 0;
+  text-align: center;
+  position: relative;
+}
+.main_content img,
+.main_content input,
+.buttons {
+  display: block;
+  margin: 13px auto;
+}
+.buttons button {
+  padding: 7px 15px;
+  border: none;
+  background-color:
+}
+.main_content input {
+  width: 100%;
+  padding: 5px;
 }
