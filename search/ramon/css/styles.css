@@ -14,11 +14,12 @@ footer {
 footer nav,
 footer div {
     border: 1px solid gray;
+    padding: 10px 20px;
 }
 
 footer li {
     display: inline-block;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 footer a,
@@ -35,6 +36,12 @@ footer a:active {
     color: red;
 }
 
+footer ul:first-of-type {
+    float: left;
+}
 
+footer ul:last-of-type {
+    float: right;
+}
 
 
