@@ -69,6 +69,8 @@ footer ul:last-of-type {
     color: white;
     background-color: blue;
     padding: 6px 15px;
+    border: none;
+    border-radius: 3px;
 }
 
 .mainContent {
