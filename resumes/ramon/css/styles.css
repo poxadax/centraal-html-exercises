@@ -1,0 +1,53 @@
+body {
+    font-size: 20px;
+    color: #343434;
+    font-family: Helvetica, Arial, "Times New Roman";
+}
+.degree {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase; /* Random comment */
+}
+aside {
+    background-color: #26547c;
+    color: #FFF;
+    width: 50%;
+}
+
+aside img {
+    width: 80%;
+  
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social i {
+    color: #FFF;
+    font-size: 1.15em;
+}
+
+.mainTitles {
+    background-color: #7da1c4;
+    /*padding: 20px 0 20px 0; */
+   /*padding: 20px 0; */
+   padding: 20px 0;
+   /*padding: 20px*/
+   text-align: center;
+   
+}
+
+.mainTitles h1 {
+    color: #FFF;
+}
+
+.mainTitles h2 {
+    color: #e6f5f7;
+}
+
+.remark {
+    background-color: #efb22d;
+    color: #FFF;
+}
+

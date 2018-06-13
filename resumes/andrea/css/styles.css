@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+    color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.degree {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+aside {
+    background-color: blanchedalmond;
+}
+.remark {
+    background-color: darkgreen;
+}
+.main-titles {
+    background-color: red;
+}
+.main-titles h1 {
+    color: darkslategrey;
+}
+.main-titles h2 {
+    color: blueviolet;
+    font-size: 50px;
+}
