@@ -20,7 +20,7 @@ footer li {
   margin-right: 10px;
 }
 footer a,
-footer a:link
+footer a:link,
 footer a:visited {
   text-decoration: none;
   color: #666;
@@ -36,4 +36,26 @@ footer ul:first-of-type {
 }
 footer ul:last-of-type{
   float: right;
+}
+.nav_top li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav_top a,
+.nav_top a:link,
+.nav_top a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav_top a:hover {
+  text-decoration: underline;
+}
+.nav_top button{
+  background-color: #4385f9;
+  color: white;
+  padding: 7px 15px;
+}
+.nav_top {
+  text-align: right;
+  padding: 10px 20px 0 0;
 }
