@@ -15,11 +15,24 @@ aside {
   font-size: "Times New Roman", Helvetica, Arial;
   font-size: 17px;
   color: #404040;
-  width: 30%;
+  width: 25%;
+  float: left;
+}
+aside span,
+aside li,
+aside h3 {
+  padding-left: 15px
+}
+main {
+  width: 70%;
+  float: right;
+  padding: 0px 20px;
+  font-size: 20px
 }
 aside img {
   width: 80%;
   border-radius: 100%;
+  margin: 20px auto;
 }
 .social a {
   color: #343434;
@@ -45,10 +58,29 @@ aside img {
   color: #F7F7F7;
   font-family: "Times New Roman";
   font-size: 27px;
+  border-top: 2px solid;
+  display: inline-block;
+  padding-top: 25px;
+  margin-top: 0;
 }
 .about-me {
   background-color: #F7F7F7;
-  font-size: "Times New Roman", Helvetica, Arial;
-  font-size: 15px;
-  color: #404040;
+  font-family: "Times New Roman", Helvetica, Arial;
+  font-size: 20px;
+  color: black;
+  line-height: 25px;
+}
+ul {
+  list-style-type: none;
+}
+h3 {
+  font-weight: 500;
+}
+h5 {
+  font-size: 25px;
+  font-weight: 200;
+}
+h4 {
+  font-size: 27px;
+  font-weight: 300;
 }
