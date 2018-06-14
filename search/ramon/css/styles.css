@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightcyan;
+}
+
 footer {
     background-color: lightgray;
     position: fixed;
@@ -84,6 +88,7 @@ footer ul:last-of-type {
 .buttons {
     display: block;
     margin: 20px auto;
+    opacity: 0.5;
 }
 .mainContent input {
     width: 100%;
