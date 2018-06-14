@@ -2,6 +2,7 @@ body {
     font-size: 20px;
     color: #343434;
     font-family: Helvetica, Arial, "Times New Roman";
+    background-color: lightgrey;
 }
 .degree {
     display: block;
@@ -12,14 +13,40 @@ aside {
     background-color: #26547c;
     color: #FFF;
     width: 50%;
+    position: absolute;
+    left: 10px;
+    width: 30%;
+    display: inline-block;
 }
 
 aside img {
     width: 80%;
     border-radius: 100%;
+    margin: 40px 40px;
   
 }
 
+
+aside a,
+aside a:link,
+aside a:visited {
+    color: lightseagreen;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a:active {
+    color: lightyellow;
+}
+
+main {
+    position: relative;
+    left: 450px;
+    width: 68%;
+    display: inline-block;
+}
 .social a {
     text-decoration: none;
 }
