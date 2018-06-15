@@ -27,6 +27,18 @@
                 background-color: salmon;
                 position: fixed;
             }
+            .box4 {
+                float: left;
+                background-color: lightyellow;
+            }
+            .box5 {
+                float: right;
+                background-color: lightgray;
+            }
+            .box6 {
+                background-color: red;
+                clear: both;
+            }
         </style>
     </head>
     <body>
@@ -62,7 +74,31 @@
                 </ol>
             </div>
             <div class="box box4">
-                <h1>Titulo 4</span>
+                <span>Box4</span>
+                <h1>Float Left</h1>
+                <ol>
+                    <li>Una capa arriba de los elementos que tienen posicionamiento static</li>
+                    <li>Los demas no respetan su espacio, pero el texto si</li>
+                    <li>Se mueve lo mas que puede a la izquierda de su contenedor</li>
+                    <li>Adapta el tamaño al contenido</li>
+                </ol>
+            </div>
+            <div class="box box5">
+                <span>Box5</span>
+                <h1>Float Right</h1>
+                <ol>
+                    <li>Una capa arriba de los elementos que tienen posicionamiento static</li>
+                    <li>Los demas no respetan su espacio, pero el texto si</li>
+                    <li>Se mueve lo mas que puede a la derecha de su contenedor</li>
+                    <li>Adapta el tamaño al contenido</li>
+                </ol>
+            </div>
+            <div class="box box6">
+                <span>Box6</span>
+                <h1>Clear</h1>
+                <ol>
+                    <li>Respeta el espacio de los flotantes</li>
+                </ol>
             </div>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
