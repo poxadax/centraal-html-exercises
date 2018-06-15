@@ -1,10 +1,42 @@
 body {
     font-size: 20px;
-    color: #343434;
+    color: #4A4B4C;
     font-family: Helvetica, Arial, "Times New Roman";
+    margin: 0;
+    padding: 0;
+}
+aside {
+    width: 34%;
+    background-color: #949699;
+    color: #C5C8C9;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 1%
+}
+main {
+    width: 54%;
+    display: inline-block;
+}
+aside img {
+    border-radius: 100%;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.mainTitles {
+    background-color: #BFC8D4;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.mainTitles h2 {
+    padding-top: 30px;
+    border-top: 2px solid white;
+    display: inline-block;
 }
 .degree {
     display: block;
     font-weight: bold;
-    text-transform: uppercase; /* yrdytugiui */
+    text-transform: uppercase; /* this is a comment */
 }
