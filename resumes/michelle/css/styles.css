@@ -40,3 +40,11 @@ aside img {
     font-weight: bold;
     text-transform: uppercase; /* this is a comment */
 }
+.job-skills {
+    list-style-type: none;
+    columns: 3;
+    -webkit-columns: 3;
+}
+.job-skills li {
+    margin-bottom: 10px;
+}
