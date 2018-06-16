@@ -19,6 +19,7 @@ aside {
 }
 aside img {
   width: 80%;
+  border-radius: 100%;
 }
 .social a {
   color: #343434;
