@@ -1,0 +1,27 @@
+table {
+ text-align: center;
+ border: none;
+}
+.monday th {
+  background-color: #b7c3d0;
+}
+.monday .hour {
+  font-weight: normal;
+}
+th,
+td {
+  border-radius: 5px;
+  border: none;
+}
+ .registry_recess_coctel {
+  background-color: #9999cc;
+ }
+.bold {
+  font-weight: bold;
+}
+.i {
+  font-style: italic;
+}
+.exi {
+  font-style: oblique;
+}
