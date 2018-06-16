@@ -1,10 +1,99 @@
 body {
     font-size: 20px;
-    color: #343434;
+    color: #4A4B4C;
     font-family: Helvetica, Arial, "Times New Roman";
+    margin: 0;
+    padding: 0;
+}
+aside {
+    width: 38%;
+    background-color: #949699;
+    color: #C5C8C9;
+    padding: 15px;
+    float: left;
+    margin-right: 1.5%
+}
+main {
+    width: 58%;
+    float: left;
+}
+aside img {
+    border-radius: 100%;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.mainTitles {
+    background-color: #BFC8D4;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.mainTitles h2 {
+    padding-top: 30px;
+    border-top: 2px solid white;
+    display: inline-block;
 }
 .degree {
     display: block;
     font-weight: bold;
-    text-transform: uppercase; /* yrdytugiui */
+    text-transform: uppercase; /* this is a comment */
+}
+.job-skills {
+    list-style-type: none;
+    columns: 3;
+    -webkit-columns: 3;
+}
+.job-skills li {
+    margin-bottom: 10px;
+}
+.job-skills li::before {
+    content: "\f101";
+    font-size: 10px;
+    font-family: "Font Awesome 5 Free";
+    padding-right: 5px;
+}
+header {
+    background-color: rgba(0,0,0,0.8);
+    color: #BFC8D4;
+    font-size: 10px;
+    font-style: italic;
+    left: 0;
+    margin: 0;
+    max-height: 50px;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+header h1,
+header h2 {
+    margin: 0;
+}
+.container {
+    margin-top: 50px;
+}
+footer {
+    background-color: #BFC8D4;
+    bottom: 0;
+    font-size: 15px;
+    left: 0;
+    max-height: 20px;
+    overflow: auto;
+    position: fixed;
+    padding: 5px;
+    right: 0;
+}
+footer span {
+    font-style: italic;
+}
+footer a {
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+.bonito li:nth-child(even) {
+    color: yellow;
 }
