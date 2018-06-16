@@ -35,6 +35,8 @@ aside img {
   width: 80%;
   border-radius: 100%;
   margin: 20px auto;
+  display: block;
+  margin: 0 auto;
 }
 .social a {
   color: #343434;
@@ -157,4 +159,9 @@ footer {
   font-style: italic;
   overflow: auto;
   opacity: .7;
+}
+.numbers li::before {
+  content: url("http://www.onlygfx.com/wp-content/uploads/2017/12/grunge-circle-dot-1.png");
+  padding-right: 5px;
+  vertical-align: ;
 }
