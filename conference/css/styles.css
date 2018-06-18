@@ -1,6 +1,7 @@
 table {
- text-align: center;
- border: none;
+  text-align: center;
+  border: none;
+  border-spacing: 5px;
 }
 .monday th {
   background-color: #b7c3d0;
@@ -24,4 +25,19 @@ td {
 }
 .exi {
   font-style: oblique;
+}
+.monday .inaguration {
+  background-color: #c0c0c0;
+}
+.conference {
+  background-color: #e6e6ff;
+}
+.workshop {
+  background-color: #9999ff;
+}
+.informal {
+  background-color: #ccccff;
+}
+.tutorial {
+  background-color: #9cf;
 }
