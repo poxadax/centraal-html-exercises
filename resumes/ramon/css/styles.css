@@ -73,7 +73,6 @@ aside a:active {
 }
 
 main {
-    
     float: right;
     width: 68%;
     display: inline-block;
@@ -112,13 +111,17 @@ main {
 }
 
 .remark {
-    background-color: #efb22d;
-    color: #FFF;
-    padding: 15px;
+    background-color: lightsteelblue;
+    color: whitesmoke;
+    padding: 10px;    
 }
 .remark img {
     width: 100px;
     height: 100px;
+}
+
+.remark figure {
+    display: inline-block;
 }
 footer {
     background-color: lightseagreen;
