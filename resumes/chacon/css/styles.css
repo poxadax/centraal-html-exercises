@@ -161,7 +161,7 @@ footer {
   opacity: .7;
 }
 .numbers li::before {
-  content: url("http://www.onlygfx.com/wp-content/uploads/2017/12/grunge-circle-dot-1.png");
+  content: ;
   padding-right: 5px;
   vertical-align: ;
 }
