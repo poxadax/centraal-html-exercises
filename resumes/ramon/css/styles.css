@@ -29,7 +29,8 @@ aside {
     left: 10px;
     width: 30%;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 aside img {
@@ -76,8 +77,8 @@ main {
     float: right;
     width: 68%;
     display: inline-block;
-    margin-top: 50px;
-
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 .social a {
     text-decoration: none;
@@ -113,9 +114,12 @@ main {
 .remark {
     background-color: #efb22d;
     color: #FFF;
-    padding: 10px;
+    padding: 15px;
 }
-
+.remark img {
+    width: 100px;
+    height: 100px;
+}
 footer {
     background-color: lightseagreen;
     max-height: 20px;
