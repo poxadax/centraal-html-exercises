@@ -18,7 +18,7 @@ header {
 }
 .degree {
     display: block;
-    font-weight: bold;
+    font-weight: lighter;
     text-transform: uppercase; /* Random comment */
 }
 aside {
@@ -37,6 +37,10 @@ aside img {
     border-radius: 100%;
     margin: 40px 40px;
   
+}
+
+.asideText {
+    margin: 20px;
 }
 
 .list {
@@ -109,6 +113,7 @@ main {
 .remark {
     background-color: #efb22d;
     color: #FFF;
+    padding: 10px;
 }
 
 footer {
