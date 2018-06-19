@@ -3,10 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <style media="screen">
+          .bonito {
+            background-color: red;
+            width: 150px;
+          }
+          .dos {
+            width: 200px;
+          }
+        </style>
+
     </head>
     <body>
         <table border="1">
             <caption>Esta es mi primer tabla</caption>
+            <colgroup>
+              <col span="5" class="dos">
+              <col class="dos bonito">
+            </colgroup>
             <thead>
                 <tr>
                     <th>Nombre</th>
