@@ -2,6 +2,9 @@ body{
   font-size: 20px; /* todo lo de body tendra este tamaño */
   color: #343434; /* todo lo de body tendra este color */
   font-family: Helvetica, Arial, "Times New Roman"; /*todo lo de body tendra este tipo de letra */
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 /* Degree es una nueva clase, empieza con . lo demás son las reglas que sigue la clase*/
 .degree{
@@ -15,10 +18,25 @@ aside {
   font-size: "Times New Roman", Helvetica, Arial;
   font-size: 17px;
   color: #404040;
-  width: 30%;
+  width: 20%;
+  float: left;
+}
+aside span,
+aside li,
+aside h3 {
+  padding-left: 15px
+}
+main {
+  width: 77%;
+  float: right;
+  font-size: 20px;
 }
 aside img {
   width: 80%;
+  border-radius: 100%;
+  margin: 20px auto;
+  display: block;
+  margin: 0 auto;
 }
 .social a {
   color: #343434;
@@ -44,10 +62,106 @@ aside img {
   color: #F7F7F7;
   font-family: "Times New Roman";
   font-size: 27px;
+  border-top: 2px solid;
+  display: inline-block;
+  padding-top: 25px;
+  margin-top: 0;
 }
 .about-me {
   background-color: #F7F7F7;
-  font-size: "Times New Roman", Helvetica, Arial;
+  font-family: "Times New Roman", Helvetica, Arial;
+  font-size: 20px;
+  color: black;
+  line-height: 25px;
+}
+ul {
+  list-style-type: none;
+}
+h3 {
+  font-weight: 500;
+}
+h5 {
+  font-size: 25px;
+  font-weight: 200;
+}
+h4 {
+  font-size: 27px;
+  font-weight: 300;
+}
+section figure,
+section div {
+  display: inline-block;
+  text-align: center;
+  width: 42%;
+  margin: 10px auto;
+}
+section img {
+  display: block;
+  margin: 0 auto;
+}
+section {
+  padding: 30px;
+}
+section figcaption {
+  width: 50%;
+  margin: 0 auto;
+}
+.position {
+  display: block;
+  text-align: center;
+}
+.numbers {
+  list-style-type: none;
+  columns: 3
+}
+.number li {
+  margin: 5px 0;
+}
+header {
+  position: fixed;
+  font-size: 10px;
+  margin: 0;
+  background-color: black;
+  color: white;
+  padding: 0px;
+  width: 100%;
+  top: 0;
+  max-height: 50px;
+  font-style: italic;
+  opacity: .7;
+}
+header h1,
+header h2 {
+  margin: 3px;
+}
+.container {
+  margin-top: 49.800px;
+}
+footer span {
+  float: left;
+}
+footer a {
+  float: right;
+  text-decoration: none;
+  color: white;
+}
+footer {
+  display: block;
+  bottom: 0;
+  position: fixed;
+  background-color: black;
+  max-height: 20px;
   font-size: 15px;
-  color: #404040;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 5px;
+  font-style: italic;
+  overflow: auto;
+  opacity: .7;
+}
+.numbers li::before {
+  content: ;
+  padding-right: 5px;
+  vertical-align: ;
 }

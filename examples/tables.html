@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style media="screen">
+          .bonito {
+            background-color: red;
+            width: 150px;
+          }
+          .dos {
+            width: 200px;
+          }
+        </style>
+
+    </head>
+    <body>
+        <table border="1">
+            <caption>Esta es mi primer tabla</caption>
+            <colgroup>
+              <col span="5" class="dos">
+              <col class="dos bonito">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Usuario</th>
+                    <th>Correo</th>
+                    <th>Fecha de registro</th>
+                    <th>Ultima sesion</th>
+                    <th>Pago</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andrea</td>
+                    <td>gapinal</td>
+                    <td>pinal.andrea@gmail.com</td>
+                    <td>2018/06/15 8:35</td>
+                    <td>2018/06/15 15:42</td>
+                    <td rowspan="2">30</td>
+                </tr>
+                <tr>
+                    <td>Paco</td>
+                    <td>paquitotero</td>
+                    <td>paquitotero@hotmail.com</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5"></td>
+                    <td>11</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
