@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+    <style media="screen">
+      label,
+      input,
+      textarea,
+      button {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Evalua tu experienca en DevC</h1>
+    <form action="form.html" method="post">
+      <label for="date">A que dia de meetup asististe</label>
+      <input type="date" name="date" id="date">
+
+      <label for="time">A que hora te fuiste</label>
+      <input type="time" name="time" id="time">
+
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name">
+
+      <label for="mail">Correo</label>
+      <input type="email" name="mail" id="mail">
+
+      <label for="fburl">Cuál es tu Facebook</label>
+      <input type="url" name="fburl" id="fburl">
+
+      <label for="cel">Celular</label>
+      <input type="tel" id="cel" name="cel">
+
+      <h2>Cómo te identificas</h2>
+      <input type="radio" name="gender" id="gender1" value="female">
+      <label for="gender1">Mujer</label>
+      <input type="radio" name="gender" id="gender2" value="male">
+      <label for="gender2">Hombre</label>
+
+      <h2>Cuáles fueron tus charlas favoritas</h2>
+      <input type="checkbox" name="talks" id="talks1" value="react">
+      <label for="talks1">React</label>
+      <input type="checkbox" name="talks" id="talks2" value="graphql">
+      <label for="talks2">GraphQL</label>
+      <input type="checkbox" name="talks" id="talks3" value="bots">
+      <label for="talks3">Messenger Bots</label>
+      <input type="checkbox" name="talks" id="talks4" value="login">
+      <label for="talks4">Login con FB</label>
+
+      <label for="picture">Sube tu foto</label>
+      <input type="file" name="picture" id="picture" accept="image/jpeg">
+
+      <label for="chelas">Cuántas chelas te tomaste?</label>
+      <input type="number" name="chelas" id="chelas" min=0 max=5>
+
+      <label for="grade">En general, cuanto te gusto el evento</label>
+      <input type="range" name="grade" id="grade" min="0" max="10">
+
+      <label for="comments">Deja tus comentarios</label>
+      <textarea name="comments" id="comments"></textarea>
+
+      <button type="submit">OK</button>
+    </form>
+  </body>
+</html>
