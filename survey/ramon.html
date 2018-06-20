@@ -45,6 +45,10 @@
     border: none;
     border-bottom: 1px solid #000000;
     }
+
+    ::placeholder {
+        color:red;
+    }
     
     </style>
 </head>
@@ -131,7 +135,7 @@
         <input type="url" name="fburl" id="fburl">
 
         <label for="phone">Enter your phone number</label>
-        <input type="tel" name="phone" id="phone">
+        <input type="tel" name="phone" id="phone" placeholder="12345">
 
         <label for="comments">Enter your comments</label>
         <textarea name="comments" id="comments"></textarea>
