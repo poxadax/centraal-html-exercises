@@ -18,6 +18,34 @@
     input[type="radio"] {
         display: inline;
     }
+
+    input[type="checkbox"]:checked  + label {
+        font-weight: bold;
+    }
+
+    input[type="range"]::after {
+        content: ':)';
+        margin-right: -20px;
+    }
+
+
+    input[type="range"]::before {
+        content: ':(';
+        margin-left: -5px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 50px;
+        resize: none;
+    }
+    
+    input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    }
+    
     </style>
 </head>
 <body>
@@ -94,7 +122,8 @@
 
         <label for="rate">How would you rate our service?</label>
         <input type="range" name="rate" id="rate" min="0" max="10">
-
+        
+        
         <label for="password">Enter your password</label>
         <input type="password" name="password" id="password">
 
