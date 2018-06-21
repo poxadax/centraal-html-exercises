@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TIPS</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    </head>
+    <style media="screen">
+        @font-face {
+            font-family: "Michelle";
+            src: url("http://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+        }
+    /************ SEARCH FORM ***************/
+        .search-form {
+            display: inline-block;
+        }
+        .search-form input {
+            background: rgba(0,0,0,.5);
+            border: none;
+            padding: 5px;
+            color: white;
+            outline: none;
+        }
+        .search-form ::placeholder {
+            color: lightgrey;
+            font-style: italic;
+        }
+        .search-form button {
+            padding: 5px;
+            border: none;
+            width: 40px;
+            cursor: pointer;
+        }
+        .search-form button:active {
+            background: rgba(0,0,0,.3);
+            outline: none;
+        }
+
+    /************** IMAGES ***************/
+    .grid img {
+        width: 300px;
+    }
+    .sepia {
+        filter: sepia(5);
+    }
+    .saturate {
+        filter: saturate(8);
+        -webkit-filter: saturate(8);
+    }
+    .cat3 {
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background: rgba(255, 87, 34, 0.5),
+                    url('https://www.catster.com/wp-content/uploads/2018/03/An-excited-cat-with-his-claws-out.jpg') cover;
+    }
+    .cat4 {
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        background-image: url('https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/49/234/fotolia_3922654_XS.jpg');
+        background-size: cover;
+
+    }
+    .cat4:hover {
+        background-color: rgba(255, 87, 34, 0.5);
+        animation-name: growing;
+        animation-duration: 5s;
+
+    }
+    /************** LAYOUT ***************/
+        header {
+            overflow: auto;
+        }
+        header img {
+            width: 25px;
+        }
+        header a {
+            font-family: Michelle, Shrikhand;
+        }
+    /************* GENERAL ***************/
+    .left {
+        float: left !important;
+    }
+    .right {
+        float: right !important;
+    }
+
+
+    @keyframes deslizamiento {
+      0% {
+        margin-left: 100%;
+        background-color: blue;
+      }
+      50% {
+        background-color: green;
+      }
+      100% {
+        margin-left: 0%;
+        background-color: yellow;
+      }
+    }
+
+    @keyframes growing {
+        0% {
+            width: 300px;
+            height: 200px
+        }
+        100% {
+            width: 400px;
+            height: 300px
+        }
+    }
+    </style>
+    <body>
+        <header>
+            <a class="left" href="#">
+                <img src="https://cdn4.iconfinder.com/data/icons/black-cat-pattern/94/cat15-256.png" alt="">
+                CatSearch
+            </a>
+            <form class="search-form right" action="index.html" method="post">
+                <input type="search" name="" value="" placeholder="Search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </header>
+
+        <main>
+            <div class="grid">
+                <img class="sepia" src="https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg" alt="">
+                <img class="saturate" src="https://www.catster.com/wp-content/uploads/2017/11/A-Siamese-cat.jpg" alt="">
+            </div>
+
+            <div class="cat3">
+
+            </div>
+            <div class="cat4">
+
+            </div>
+
+        </main>
+    </body>
+</html>
