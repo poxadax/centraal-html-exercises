@@ -2,23 +2,83 @@ body {
     font-size: 20px;
     color: #343434;
     font-family: Helvetica, Arial, "Times New Roman";
+    background-color: lightgrey;
+}
+header {
+    position: fixed;
+    font-size: 10px;
+    color: white;
+    background-color: lightskyblue;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    max-height: 50px;
+    padding: 5px;
+    opacity: 0.8;
 }
 .degree {
     display: block;
-    font-weight: bold;
+    font-weight: lighter;
     text-transform: uppercase; /* Random comment */
 }
 aside {
     background-color: #26547c;
     color: #FFF;
     width: 50%;
+    float: left;
+    left: 10px;
+    width: 30%;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 aside img {
     width: 80%;
+    border-radius: 100%;
+    margin: 40px 40px;
   
 }
 
+.asideText {
+    margin: 20px;
+}
+
+.list {
+    list-style-type: none;
+    columns: 3;
+    
+}
+
+.list li::before {
+   content: "\f101";
+   color: navy;
+   font-weight: 900;
+   font-family: "Font Awesome 5 Free";
+   padding-right: 6px;
+}
+
+aside a,
+aside a:link,
+aside a:visited {
+    color: lightseagreen;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a:active {
+    color: lightyellow;
+}
+
+main {
+    float: right;
+    width: 68%;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 .social a {
     text-decoration: none;
 }
@@ -38,6 +98,10 @@ aside img {
    
 }
 
+.mainTitles span {
+    vertical-align: super;
+}
+
 .mainTitles h1 {
     color: #FFF;
 }
@@ -47,7 +111,39 @@ aside img {
 }
 
 .remark {
-    background-color: #efb22d;
-    color: #FFF;
+    background-color: lightsteelblue;
+    color: whitesmoke;
+    padding: 10px;    
+}
+.remark img {
+    width: 100px;
+    height: 100px;
+}
+
+.remark figure {
+    display: inline-block;
+}
+footer {
+    background-color: lightseagreen;
+    max-height: 20px;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+footer span {
+    font-style: italic;
+
+}
+
+footer a {
+    float: right;
+    color: white;
+    text-decoration: none;
 }
 
