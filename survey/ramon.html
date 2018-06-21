@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style media="screen"> 
+    input,
+    textarea,
+    button,
+    select {
+        display: block;
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+        display: inline;
+    }
+
+    input[type="checkbox"]:checked  + label {
+        font-weight: bold;
+    }
+
+    input[type="range"]::after {
+        content: ':)';
+        margin-right: -20px;
+    }
+
+
+    input[type="range"]::before {
+        content: ':(';
+        margin-left: -5px;
+    }
+
+    textarea {
+        width: 90%;
+        height: 50px;
+        resize: none;
+    }
+    
+    input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    }
+
+    ::placeholder {
+        color:red;
+    }
+    
+    </style>
+</head>
+<body>
+    
+    <h1>Check what you would like to receive information</h1>
+    <form action="ramon.html" method="post" novalidate autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required value="ramon" maxlength="10">
+
+        <label for="mail">Mail</label>
+        <input type="email" name="mail" id="mail" placeholder="user@mail.com" >
+
+        <label for="date">When is your birthday?</label>
+        <input type="date" name="date" id="date">
+
+        <label for="time">At what time would you like to read the news?</label>
+        <input type="time" name="time" id="time">
+
+
+        <label for="venue">Where do you live?</label>
+        <select name="venue" id="venue">
+            <option value="0">Select an option</option>
+            <optgroup label="Local">
+            <option value="México" selected>México</option>
+            </optgroup>
+            <optgroup label="Foreigner">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            </optgroup>
+        </select>
+
+        <label for="other">Where are you from?</label>
+        <select name="other" id="other" size="6" multiple>
+            <option value="0">Select an option</option>
+            <option value="México">México</option>
+            <option value="USA" selected>USA</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <h2>Como te identificas</h2>
+
+        <div>
+            <input type="radio" name="gender" id="gender1" value="female">
+            <label for="gender1">Woman</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="gender2" value="male">
+            <label for="gender2">Man</label> 
+        </div>       
+        
+        <h2>What are your favorite hobbies?</h2>
+        <div>
+            <input type="checkbox" name="music" id="music" value="music" checked>
+            <label for="music">Music</label> 
+        </div>
+        <div>
+            <input type="checkbox" name="movies" id="movies" value="movies">
+            <label for="movies">Movies</label>
+        </div>
+        <div>
+            <input type="checkbox" name="animals" id="animals" value="animals">
+            <label for="animals">Animals</label>
+        </div>
+        <div>
+            <input type="checkbox" name="politics" id="politics" value="politics">
+            <label for="politics">Politics</label>
+        </div>
+        
+        <label for="pic">Upload your photo</label>
+        <input type="file" name="pic" id="pic" accept="image/jpeg">
+
+        <label for="read">How many days a week to you read the news?</label>
+        <input type="number" name="read" id="read" min=0 max=7>
+
+        <label for="rate">How would you rate our service?</label>
+        <input type="range" name="rate" id="rate" min="0" max="10">
+        
+        
+        <label for="password">Enter your password</label>
+        <input type="password" name="password" id="password">
+
+        <label for="fburl">Enter your facebook page</label>
+        <input type="url" name="fburl" id="fburl">
+
+        <label for="phone">Enter your phone number</label>
+        <input type="tel" name="phone" id="phone" placeholder="12345">
+
+        <label for="comments">Enter your comments</label>
+        <textarea name="comments" id="comments"></textarea>
+
+        <button type="submit">OK</button>
+
+
+    </form>
+
+    
+</body>
+</html>
