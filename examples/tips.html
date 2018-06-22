@@ -7,9 +7,18 @@
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     </head>
     <style media="screen">
+    /************* GENERAL ***************/
+        .left {
+            float: left !important;
+        }
+        .right {
+            float: right !important;
+        }
         @font-face {
             font-family: "Michelle";
-            src: url("http://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+            src: local("Helvetica Neue Bold"),
+                 local("HelveticaNeue-Bold"),
+                 url(MgOpenModernaBold.ttf);
         }
     /************ SEARCH FORM ***************/
         .search-form {
@@ -38,37 +47,37 @@
         }
 
     /************** IMAGES ***************/
-    .grid img {
-        width: 300px;
-    }
-    .sepia {
-        filter: sepia(5);
-    }
-    .saturate {
-        filter: saturate(8);
-        -webkit-filter: saturate(8);
-    }
-    .cat3 {
-        width: 300px;
-        height: 200px;
-        display: inline-block;
-        background: rgba(255, 87, 34, 0.5),
-                    url('https://www.catster.com/wp-content/uploads/2018/03/An-excited-cat-with-his-claws-out.jpg') cover;
-    }
-    .cat4 {
-        width: 300px;
-        height: 200px;
-        display: inline-block;
-        background-image: url('https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/49/234/fotolia_3922654_XS.jpg');
-        background-size: cover;
+        .grid img {
+            width: 300px;
+        }
+        .sepia {
+            filter: sepia(5);
+        }
+        .saturate {
+            filter: saturate(8);
+            -webkit-filter: saturate(8);
+        }
+        .cat3 {
+            width: 300px;
+            height: 200px;
+            display: inline-block;
+            background: rgba(255, 87, 34, 0.5),
+                        url('https://www.catster.com/wp-content/uploads/2018/03/An-excited-cat-with-his-claws-out.jpg') cover;
+        }
+        .cat4 {
+            width: 300px;
+            height: 200px;
+            display: inline-block;
+            background-image: url('https://img-aws.ehowcdn.com/600x600p/photos.demandstudios.com/49/234/fotolia_3922654_XS.jpg');
+            background-size: cover;
 
-    }
-    .cat4:hover {
-        background-color: rgba(255, 87, 34, 0.5);
-        animation-name: growing;
-        animation-duration: 5s;
+        }
+        .cat4:hover {
+            background-color: rgba(255, 87, 34, 0.5);
+            animation-name: growing;
+            animation-duration: 5s;
 
-    }
+        }
     /************** LAYOUT ***************/
         header {
             overflow: auto;
@@ -79,39 +88,32 @@
         header a {
             font-family: Michelle, Shrikhand;
         }
-    /************* GENERAL ***************/
-    .left {
-        float: left !important;
-    }
-    .right {
-        float: right !important;
-    }
 
-
-    @keyframes deslizamiento {
-      0% {
-        margin-left: 100%;
-        background-color: blue;
-      }
-      50% {
-        background-color: green;
-      }
-      100% {
-        margin-left: 0%;
-        background-color: yellow;
-      }
-    }
-
-    @keyframes growing {
-        0% {
-            width: 300px;
-            height: 200px
+    /************* ANIMATIONS ************/
+        @keyframes deslizamiento {
+            0% {
+              margin-left: 100%;
+              background-color: blue;
+            }
+            50% {
+              background-color: green;
+            }
+            100% {
+              margin-left: 0%;
+              background-color: yellow;
+            }
         }
-        100% {
-            width: 400px;
-            height: 300px
+
+        @keyframes growing {
+            0% {
+                width: 300px;
+                height: 200px
+            }
+            100% {
+                width: 400px;
+                height: 300px
+            }
         }
-    }
     </style>
     <body>
         <header>

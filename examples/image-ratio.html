@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style media="screen">
+            .img-box {
+                height: 300px;
+                width: 300px;
+                overflow: hidden;
+            }
+            .fit {
+                height: 100%;
+                width: 100%;
+            }
+            .fit-but-crop {
+                width: 100%;
+            }
+            .fit-cover {
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <img src="" alt="">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h1>Working with images and keeping their ratio</h1>
+        <p>An image inside the box without fitting</p>
+        <figure class="img-box">
+            <img class="fit" src="https://www.catster.com/wp-content/uploads/2017/08/Pixiebob-cat.jpg" alt="">
+        </figure>
+
+        <p>An image inside the box but not fitting</p>
+        <figure class="img-box">
+            <img class="fit-but-crop" src="https://www.catster.com/wp-content/uploads/2017/08/Pixiebob-cat.jpg" alt="">
+        </figure>
+
+        <p>An image inside the box but not fitting</p>
+        <figure class="img-box">
+            <img class="fit-but-crop" src="https://images.unsplash.com/photo-1505481354248-2ba5d3b9338e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdf10e1615dc7c122da9b74cd9cfcc0f&w=1000&q=80" alt="">
+        </figure>
+
+        <p>An image inside the box covering and centering</p>
+        <figure class="img-box">
+            <img class="fit-cover" src="https://images.unsplash.com/photo-1505481354248-2ba5d3b9338e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bdf10e1615dc7c122da9b74cd9cfcc0f&w=1000&q=80" alt="">
+        </figure>
+    </body>
+</html>
