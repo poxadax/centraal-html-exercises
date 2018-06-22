@@ -13,6 +13,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;    
+    height: 80px;
 }
 
 footer nav,
@@ -97,4 +98,43 @@ footer ul:last-of-type {
 }
 .buttons button{
     padding: 7px 15px;
+}
+
+.results img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.results article{
+    width: calc(1/4*100% - 30px);
+    margin: 15px;
+    
+}
+
+
+
+.results {
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+main {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+    .results {
+        width: 100%;
+    }
+
+    .results article{
+        width: calc(1/2*100% - 30px);
+        margin: 15px;
+        
+    }
 }
