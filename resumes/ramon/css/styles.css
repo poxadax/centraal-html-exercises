@@ -1,8 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 20px;
     color: #343434;
     font-family: Helvetica, Arial, "Times New Roman";
     background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    
 }
 header {
     position: fixed;
@@ -31,13 +38,19 @@ aside {
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 40px;
+    margin-right: 22px;
+    width: calc(32% - 22px);
 }
 
 aside img {
-    width: 80%;
+    width: 100%;
     border-radius: 100%;
-    margin: 40px 40px;
+    
   
+}
+
+aside figure {
+
 }
 
 .asideText {
