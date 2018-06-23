@@ -182,3 +182,31 @@ footer a {
     margin-bottom: 20px;
 }
 
+@media (max-height: 767px) {
+    header {
+        display: none;
+    }
+    .container {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    aside {
+        width: 100%;
+        margin-right: 0;
+        padding: 0 20%;
+    }
+    main {
+        width: 100%;
+
+    }
+    .content {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .item {
+        width: calc(100% - 40px);
+    }
+}
