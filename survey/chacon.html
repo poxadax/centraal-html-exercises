@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/styles_chacon.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Favorite sport</h1>
+      <form class="" action="chacon.html" method="post" novalidate>
+        <label for="date">Select the date in which you answered</label>
+        <input type="date" name="date" id="date">
+
+        <label for="name">Name</label>
+        <input type="text" name="name" value="" id="name" required autocomplete="off" class="border" placeholder="Chacon">
+
+        <h2>Enter your email</h2>
+        <div class="hidden">
+          <label for="email">Email</label>
+          <input type="email" name="email" value="" id="email">
+        </div>
+
+        <label for="time">How often do you practice sports?</label>
+        <select class="time" name="time" id="time">
+          <option value="0">Select an option</option>
+          <option value="-30min">Less than 30 min.</option>
+          <option value="30 min to 1h" selected>Between 30 min. to 1 hour</option>
+          <option value="1h to 2h">Between 1 hour to 2 hours</option>
+          <option value="2h+">More than 2 hours</option>
+        </select>
+
+        <label for="other">How often do you practice sports?</label>
+        <select name="other" id="other" size="5" multiple>
+          <option value="0">Select an option</option>
+          <optgroup label="Not so much">
+            <option value="-30min">Less than 30 min.</option>
+          </optgroup>
+          <optgroup label="Quite some time">
+            <option value="30 min to 1h">Between 30 min. to 1 hour</option>
+            <option value="1h to 2h">Between 1 hour to 2 hours</option>
+          </optgroup>
+          <optgroup label="Long time">
+            <option value="2h+" selected>More than 2 hours</option>
+          </optgroup>
+        </select>
+
+        <h2>Select your gender</h2>
+        <div class="">
+          <input type="radio" name="gender" value="Man" id="gender1">
+          <label for="gender1">Man</label>
+        </div>
+        <div class="">
+          <input type="radio" name="gender" value="Woman" id="gender2">
+          <label for="gender2">Woman</label>
+        </div>
+
+        <h2>Select your favorite sport</h2>
+        <div class="columns_2">
+          <div class="">
+            <input type="checkbox" name="Sport" value="tennis" id="Sport1" checked>
+            <label for="Sport1">Tennis</label>
+          </div>
+          <div class="">
+            <input type="checkbox" name="Sport" value="basquetball" id="Sport2">
+            <label for="Sport2">Basquetball</label>
+          </div>
+          <div class="">
+            <input type="checkbox" name="Sport" value="football" id="Sport3">
+            <label for="Sport3">Football</label>
+          </div>
+          <div class="">
+            <input type="checkbox" name="Sport" value="swimming" id="Sport4">
+            <label for="Sport4">Swimming</label>
+          </div>
+          <div class="">
+            <input type="checkbox" name="Sport" value="track" id="Sport5">
+            <label for="Sport5">Track</label>
+          </div>
+          <div class="">
+            <input type="checkbox" name="Sport" value="gym" id="Sport6">
+            <label for="Sport6">Track</label>
+          </div>
+        </div>
+
+
+        <h2>Please upload your picture</h2>
+        <label for="picture">Picture</label>
+        <input type="file" name="picture" id="picture" accept="image/*">
+
+        <label for="age">age</label>
+        <input type="number" name="age" value="" id="age" min="10" max="70">
+
+        <label for="range">How good are you?</label>
+        <input type="range" name="range" id="range" min="0" max="100" value="">
+
+        <h2>Enter your password</h2>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" value="">
+
+        <h2>Search</h2>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" value="">
+
+        <h2>Enter your Facebook</h2>
+        <label for="facebook_url">Facebook Url</label>
+        <input type="url" name="facebook_url" id="facebook_url" value="">
+
+        <h2>Enter your phone</h2>
+        <label for="phone">Enter your phone numebr</label>
+        <input type="tel" name="phone" id="phone" value="">
+
+        <h2>Put your comments</h2>
+        <textarea name="comments" id="comments"></textarea>
+
+        <div>
+          <label for="test_img"><img src="https://roedoresdomesticos.com/wp-content/uploads/2017/06/cobaya-sheltie-roedoresdomesticos-300x300.jpg" alt=""></label>
+          <input type="checkbox" name="test_img" value="" id="test_img" class="">
+        </div>
+
+        <button type="submit" name="button">Ok</button>
+      </form>
+    </div>
+  </body>
+</html>
