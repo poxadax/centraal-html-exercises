@@ -9,35 +9,79 @@
 .monday .hour {
   font-weight: normal;
 }
-th,
-td {
+.monday th,
+.monday td {
   border-radius: 5px;
   border: none;
 }
- .registry_recess_coctel {
+.monday .registry_recess_coctel {
   background-color: #9999cc;
- }
-.bold {
+}
+.monday .bold {
   font-weight: bold;
 }
-.i {
+.monday .i {
   font-style: italic;
 }
-.exi {
+.monday .exi {
   font-style: oblique;
 }
 .monday .inaguration {
   background-color: #c0c0c0;
 }
-.conference {
+.monday .conference {
   background-color: #e6e6ff;
 }
-.workshop {
+.monday .workshop {
   background-color: #9999ff;
 }
-.informal {
+.monday .informal {
   background-color: #ccccff;
 }
-.tutorial {
+.monday .tutorial {
   background-color: #9cf;
+}
+
+.wednesday {
+    background-color: aliceblue;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+    font-family: Helvetica, Arial, "Times New Roman";
+    width: 100%
+
+}
+.wednesday th {
+    background-color: lightblue;
+}
+.wednesday tbody {
+    background-color: lightgoldenrodyellow;
+}
+
+.wednesday .empty {
+    background-color: aliceblue;
+}
+
+.wednesday .pink {
+    background-color: lightpink;
+}
+
+.wednesday .grey {
+    background-color: lightgray;
+}
+
+.wednesday .coral {
+    background-color: lightcoral;
+}
+
+.wednesday .green {
+    background-color: lightgreen;
+}
+
+.wednesday .blue {
+    background-color: lightseagreen;
+}
+
+.wednesday .salmon {
+    background-color: lightsalmon;
 }
