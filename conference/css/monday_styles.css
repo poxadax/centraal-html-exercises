@@ -1,0 +1,43 @@
+.table_monday {
+  text-align: center;
+  border: none;
+  border-spacing: 5px;
+}
+.monday th {
+  background-color: #b7c3d0;
+}
+.monday .hour {
+  font-weight: normal;
+}
+th,
+td {
+  border-radius: 5px;
+  border: none;
+}
+ .registry_recess_coctel {
+  background-color: #9999cc;
+ }
+.bold {
+  font-weight: bold;
+}
+.i {
+  font-style: italic;
+}
+.exi {
+  font-style: oblique;
+}
+.monday .inaguration {
+  background-color: #c0c0c0;
+}
+.conference {
+  background-color: #e6e6ff;
+}
+.workshop {
+  background-color: #9999ff;
+}
+.informal {
+  background-color: #ccccff;
+}
+.tutorial {
+  background-color: #9cf;
+}
