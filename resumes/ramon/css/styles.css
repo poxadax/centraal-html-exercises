@@ -36,7 +36,7 @@ aside {
     left: 10px;
     width: 30%;
     display: inline-block;
-    margin-top: 60px;
+    
     margin-bottom: 40px;
     margin-right: 22px;
     width: calc(32% - 22px);
@@ -89,7 +89,7 @@ main {
     float: right;
     width: 68%;
     display: inline-block;
-    margin-top: 60px;
+    
     margin-bottom: 40px;
 }
 .social a {
@@ -123,19 +123,35 @@ main {
     color: #e6f5f7;
 }
 
-.remark {
+.remark,
+.references {
     background-color: lightsteelblue;
     color: whitesmoke;
     padding: 10px;    
 }
-.remark img {
-    width: 100px;
-    height: 100px;
+
+
+.references span {
+    display: block;
 }
 
-.remark figure {
-    display: inline-block;
+.references {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.references img {
+    width: 100px;
+}
+
+.item {
+    margin-right: 20px;
+    width: calc(1/2*100% - 40px);    
+}
+
+
+
 footer {
     background-color: lightseagreen;
     max-height: 20px;
@@ -158,5 +174,11 @@ footer a {
     float: right;
     color: white;
     text-decoration: none;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 20px;
 }
 
